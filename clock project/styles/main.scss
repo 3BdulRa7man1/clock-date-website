@@ -1,0 +1,60 @@
+// created by Abdulrahman Tayel 
+// Tuesday, January 12, 2021
+// at Home in the livingroom on the couch.
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vw;
+    position: relative;
+    background: url(../assets/pexels-bryan-gomes-3977529.jpg);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    width: 100%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 9vw;
+    font-weight: bold;
+    text-align: center;
+    color: #f0f0f0;
+
+    
+//     background: -webkit-linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   background-color: #b3cdd1;
+
+    font-family: 'Oswald',sans-serif;
+    letter-spacing: 5px;
+}
+#clock,#date {
+    width: 100%;
+    position: absolute;
+    font-size: 9vw;
+    color:  #0f0f0f;
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: 25%;
+}
+#date {
+    color: #926354;
+    padding-top: 10%;
+    font-size: 3vw;
+}
